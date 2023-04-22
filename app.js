@@ -13,5 +13,8 @@ app.use(express.static(path.join(__dirname, "static")));
 app.get("/", (req, res) => {
   res.render("home");
 });
+app.get("/blog", (req, res) => {
+  res.render("blog");
+});
 
 module.exports = app;
