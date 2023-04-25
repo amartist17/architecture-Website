@@ -61,113 +61,7 @@
     <div class="pointer bnz-pointer" id="bnz-pointer"></div>
 
     <!-- Header -->
-    <header class="header header-3">
-      <div class="container">
-        <div
-          class="header_inner d-flex align-items-center justify-content-between"
-        >
-          <div class="logo">
-            <a href="/" class="light_logo">
-              <img src="/images/logo.png" alt="logo" />
-            </a>
-            <a href="/" class="dark_logo">
-              <img src="/images/logo.png" alt="logo" />
-            </a>
-          </div>
-
-          <div class="mainnav d-none d-lg-block">
-            <ul class="main_menu">
-              <li class="menu-item"><a href="/">Home</a></li>
-              <li class="menu-item"><a href="/">About</a></li>
-              <li class="menu-item"><a href="/shop">Shop</a></li>
-              <li class="menu-item"><a href="/blog">Blog</a></li>
-              <li class="menu-item"><a href="/">Contacts</a></li>
-            </ul>
-          </div>
-          <div class="header_right_part d-flex align-items-center">
-            <button class="aside_open">
-              <span class="line"></span>
-              <span class="line"></span>
-              <span class="line"></span>
-            </button>
-            <!-- <div class="header_search">
-              <button type="submit" class="form-control-submit">
-                <i class="bi bi-search"></i>
-              </button>
-            </div>
-            <div class="open_search">
-              <form
-                class="search_form"
-                action="https://wpthemebooster.com/demo/themeforest/html/mrittik/light/search.php"
-              >
-                <input
-                  type="text"
-                  name="search"
-                  class="keyword form-control"
-                  placeholder="Search..."
-                />
-                <button type="submit" class="form-control-submit">
-                  <i class="bi bi-search"></i>
-                </button>
-              </form>
-            </div> -->
-            <!-- <button class="ma5menu__toggle d-lg-none d-block" type="button">
-              <i class="bi bi-list"></i>
-            </button> -->
-          </div>
-        </div>
-      </div>
-    </header>
-
-    <div class="aside_info_wrapper">
-      <button class="aside_close"><i class="bi bi-x-lg"></i></button>
-      <div class="aside_logo">
-        <a href="/" class="light_logo">
-          <img src="/images/logo.png" alt="logo" />
-        </a>
-        <a href="/" class="dark_logo">
-          <img src="/images/logo.png" alt="logo" />
-        </a>
-      </div>
-      <div class="aside_info_inner">
-        <p>
-          Architects is a full-service design firm providing architecture
-          architecture.
-        </p>
-
-        <div class="aside_info_inner_box">
-          <h5>Contact Info</h5>
-          <p>+123 456 789 33</p>
-          <p>
-            3 Madison Street, NY <br />
-            United States of America
-          </p>
-          <p>logo@gmail.com</p>
-
-          <h5>Office Address</h5>
-          <p>
-            +Time Square, New York <br />
-            USA, 3454
-          </p>
-        </div>
-        <div class="social_sites">
-          <ul class="d-flex align-items-center justify-content-center">
-            <li>
-              <a href="#"><i class="bi bi-facebook"></i></a>
-            </li>
-            <li>
-              <a href="#"><i class="bi bi-twitter"></i></a>
-            </li>
-            <li>
-              <a href="#"><i class="bi bi-instagram"></i></a>
-            </li>
-            <li>
-              <a href="#"><i class="bi bi-youtube"></i></a>
-            </li>
-          </ul>
-        </div>
-      </div>
-    </div>
+    <%- include('header'); -%>
 
     <!-- Main Wrapper-->
     <main class="wrapper">
@@ -189,9 +83,9 @@
                           >
                         </h4>
                         <div class="details_link">
-                          <a href="about.html">
+                          <a href="/contact">
                             <span class="link_text"
-                              >Lorem Architecture Details -
+                              >Wellness Through Spaces -
                             </span>
                             <span class="link_icon">Click Here</span>
                           </a>
@@ -214,13 +108,13 @@
                       <div class="slide_content_inner">
                         <h4>
                           <a href="/" class="text-white text-uppercase"
-                            >We value your Dream</a
+                            >Award Winning</a
                           >
                         </h4>
                         <div class="details_link">
-                          <a href="about.html">
+                          <a href="/about">
                             <span class="link_text"
-                              >Lorem Architecture Details -
+                              >Young Architecture Practice -
                             </span>
                             <span class="link_icon">Click Here</span>
                           </a>
@@ -243,13 +137,13 @@
                       <div class="slide_content_inner">
                         <h4>
                           <a href="/" class="text-white text-uppercase"
-                            >Make true your Dream with Lorem</a
+                            >Research Intensive Design</a
                           >
                         </h4>
                         <div class="details_link">
-                          <a href="about.html">
+                          <a href="/projects">
                             <span class="link_text"
-                              >Lorem Architecture Details -
+                              >Avant-garde Aesthetics-
                             </span>
                             <span class="link_icon">Click Here</span>
                           </a>
@@ -282,7 +176,7 @@
             ></a>
           </div>
         </div>
-        <div class="rotate-logo d-none d-md-block">
+        <!-- <div class="rotate-logo d-none d-md-block">
           <span class="rotate-bg"
             ><img src="/assets/img/slider/rotate-logo-dark.png" alt="spinlogo"
           /></span>
@@ -291,7 +185,7 @@
               src="/assets/img/slider/rotate-logo-text-dark.png"
               alt="spinlogo"
           /></span>
-        </div>
+        </div> -->
       </div>
 
       <section
@@ -583,7 +477,7 @@
         </div>
       </section>
 
-      <section class="blog pt-lg bg-dark-100">
+      <!-- <section class="blog pt-lg bg-dark-100">
         <div class="large_font">
           <h2
             class="floating_element text-dark-200 d-flex justify-content-center"
@@ -691,7 +585,7 @@
             </div>
           </div>
         </div>
-      </section>
+      </section> -->
 
       <section class="contact_us pt-4">
         <div class="container">
@@ -773,147 +667,7 @@
     </main>
 
     <!-- Footer-->
-    <footer class="footer bg-dark-200 box_padding">
-      <div
-        class="footer_inner bg-black"
-        data-aos="zoom-in"
-        data-aos-duration="1000"
-      >
-        <div class="container">
-          <div class="row align-items-end">
-            <div class="col-lg-4 col-md-2 col-sm-2">
-              <div
-                class="section-header"
-                data-aos="fade-right"
-                data-aos-duration="1000"
-              >
-                <h2>Contact</h2>
-              </div>
-            </div>
-            <div class="col-lg-4 col-md-5 col-sm-5">
-              <div class="communication">
-                <div
-                  class="info_body"
-                  data-aos="fade-up"
-                  data-aos-duration="500"
-                >
-                  <h6>Studio Website</h6>
-                  <h5>Loremipsum.com</h5>
-                </div>
-                <div
-                  class="info_body"
-                  data-aos="fade-up"
-                  data-aos-duration="700"
-                >
-                  <h6>Email Address</h6>
-                  <h5>architects@gmail.com</h5>
-                </div>
-                <div
-                  class="info_body"
-                  data-aos="fade-up"
-                  data-aos-duration="900"
-                >
-                  <h6>Phone No</h6>
-                  <h5>+123 (456789)</h5>
-                </div>
-                <div
-                  class="info_body"
-                  data-aos="fade-up"
-                  data-aos-duration="1100"
-                >
-                  <h6>Office Address</h6>
-                  <h5>3 Madison Street NY, USA</h5>
-                </div>
-              </div>
-            </div>
-            <div class="col-lg-4 col-md-5 col-sm-5">
-              <div
-                class="footer_elements d-flex align-items-center justify-content-end"
-              >
-                <div class="footer_elements_inner">
-                  <div
-                    class="footer_logo"
-                    data-aos="fade-up"
-                    data-aos-duration="500"
-                  >
-                    <a href="/" class="light_logo">
-                      <img
-                        style="width: 120px"
-                        src="/images/logo-light.png"
-                        alt="logo"
-                      />
-                    </a>
-                  </div>
-                  <div class="footer_social">
-                    <ul class="social_list">
-                      <li
-                        class="facebook"
-                        data-aos="fade-up"
-                        data-aos-duration="500"
-                      >
-                        <a href="#"><i class="bi bi-facebook"></i></a>
-                      </li>
-                      <li
-                        class="twitter"
-                        data-aos="fade-up"
-                        data-aos-duration="700"
-                      >
-                        <a href="#"><i class="bi bi-twitter"></i></a>
-                      </li>
-                      <li
-                        class="instagram"
-                        data-aos="fade-up"
-                        data-aos-duration="900"
-                      >
-                        <a href="#"><i class="bi bi-instagram"></i></a>
-                      </li>
-                      <li
-                        class="youbetube"
-                        data-aos="fade-up"
-                        data-aos-duration="1100"
-                      >
-                        <a href="#"><i class="bi bi-youtube"></i></a>
-                      </li>
-                    </ul>
-                  </div>
-                  <div class="terms_condition">
-                    <ul>
-                      <li data-aos="fade-up" data-aos-duration="1300">
-                        <a href="#">Terms</a>
-                      </li>
-                      <li data-aos="fade-up" data-aos-duration="1500">
-                        <a href="#">Condition</a>
-                      </li>
-                      <li data-aos="fade-up" data-aos-duration="1700">
-                        <a href="#">Policy</a>
-                      </li>
-                    </ul>
-                  </div>
-                  <div
-                    class="copyright"
-                    data-aos="fade-up"
-                    data-aos-duration="2000"
-                  >
-                    <p>TAP 2023. All Rights Reserved</p>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <!-- Section Grid Lines -->
-        <ul class="grid_lines d-none d-md-flex justify-content-between">
-          <li class="grid_line"></li>
-          <li class="grid_line"></li>
-          <li class="grid_line"></li>
-          <li class="grid_line"></li>
-          <li class="grid_line"></li>
-          <li class="grid_line"></li>
-          <li class="grid_line"></li>
-        </ul>
-      </div>
-    </footer>
+    <%- include('footer'); -%>
 
     <div class="totop">
       <a href="#">UP</a>
