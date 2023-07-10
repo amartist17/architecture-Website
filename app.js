@@ -16,8 +16,14 @@ app.get("/", (req, res) => {
 app.get("/about", (req, res) => {
   res.render("about");
 });
-app.get("/blog", (req, res) => {
-  res.render("blog");
+app.get("/seminar", (req, res) => {
+  res.render("seminar");
+});
+app.get("/seminar-details", (req, res) => {
+  res.render("seminar-details");
+});
+app.get("/seminar-form", (req, res) => {
+  res.render("seminar-form");
 });
 app.get("/shop", (req, res) => {
   res.render("shop");
